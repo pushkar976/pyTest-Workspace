@@ -1,0 +1,20 @@
+1595958549450	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilemVNZT6"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1595958553327	Marionette	INFO	Listening on port 53911
+1595958553585	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+JavaScript warning: https://duckduckgo.com/d2828.js, line 1: unreachable code after return statement
+1595958559561	Marionette	INFO	Stopped listening on port 53911
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
