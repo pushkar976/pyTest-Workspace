@@ -1,6 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import Select
 import time
 
 @pytest.fixture
@@ -31,7 +32,6 @@ def test_basic_duckduckgo_search(browser):
     search_input = browser.find_element_by_id('search_form_input')
     assert search_input.get_attribute('value') == PHRASE
 
-
 def test_flipkart(browser):
 
     myDataFile = open("C:/Users/admin/Desktop/loginData.txt","r")
@@ -59,12 +59,30 @@ def test_flipkart(browser):
     flipClickLogin.click()
     time.sleep(1)
 
-
+def test_search(browser):
+    test_flipkart(browser)
     flipSearchtext = browser.find_element_by_css_selector('input[class="LM6RPg"]')
-    flipSearchtext.send_keys("RealMe" + Keys.RETURN)
+    flipSearchtext.send_keys("realme" + Keys.RETURN)
     time.sleep(5)
 
+def test_dropDown(browser):
+    test_search(browser)
+    time.sleep(2)
+    browser.find_element_by_css_selector('a[class="_2SvCnW"]').click()
+    time.sleep(3)
+    dropdown_element = browser.find_element_by_css_selector('select[class="fPjUPw"]')
+    flipDropDown = Select(dropdown_element)
 
+    numOfOptions = len(flipDropDown.options)
+    print(numOfOptions)
+    assert numOfOptions == 11
 
+    flipDropDown.select_by_index(8)
+    
+    allOptions = flipDropDown.options
+    print(allOptions)
 
+    for option in allOptions:
+        print(option.text)
 
+    time.sleep(3)
