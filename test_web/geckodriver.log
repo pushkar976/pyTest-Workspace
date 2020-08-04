@@ -2278,3 +2278,470 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1596564933748	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileLby56d"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596564946358	Marionette	INFO	Listening on port 61225
+1596564946935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596564957372	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596564962002	Marionette	INFO	Stopped listening on port 61225
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596564969061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile7LtR47"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596564973866	Marionette	INFO	Listening on port 61295
+1596564974308	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596564980924	Marionette	INFO	Stopped listening on port 61295
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596565005126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilenipJCI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596565010840	Marionette	INFO	Listening on port 61379
+1596565010871	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596565022274	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1596565026873	Marionette	INFO	Stopped listening on port 61379
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596565034228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileyvPSqL"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596565038073	Marionette	INFO	Listening on port 61447
+1596565038360	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596565044027	Marionette	INFO	Stopped listening on port 61447
+JavaScript error: , line 0: uncaught exception: undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596565164790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileyi654q"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596565168756	Marionette	INFO	Listening on port 61553
+1596565168920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596565181175	Marionette	INFO	Stopped listening on port 61553
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596565908810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileqAnN5Q"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596565912176	Marionette	INFO	Listening on port 61897
+1596565912423	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1596565955095	Marionette	INFO	Stopped listening on port 61897
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596565967724	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileGgeqma"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596565971385	Marionette	INFO	Listening on port 61973
+1596565971857	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1165:3
+
+1596566013408	Marionette	INFO	Stopped listening on port 61973
+JavaScript error: resource://gre/modules/IndexedDB.jsm, line 370: UnknownError: IDBDatabase.transaction: Can't start IndexedDB transaction during shutdown
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596566050233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileg4OBDn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596566053591	Marionette	INFO	Listening on port 62070
+1596566053850	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1596566091344	Marionette	INFO	Stopped listening on port 62070
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596566146049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileYf5BDz"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596566150084	Marionette	INFO	Listening on port 62188
+1596566150181	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 636))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 343))
+1596566163002	Marionette	INFO	Stopped listening on port 62188
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596566307421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileZccK61"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596566319238	Marionette	INFO	Listening on port 62543
+1596566319480	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596566336371	Marionette	INFO	Stopped listening on port 62543
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596566489235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile3qLiPI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596566494671	Marionette	INFO	Listening on port 62702
+1596566494961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596566510406	Marionette	INFO	Stopped listening on port 62702
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596566830399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilewnvqig"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596566840027	Marionette	INFO	Listening on port 62920
+1596566841764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596566858885	Marionette	INFO	Stopped listening on port 62920
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596566924638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileAnbss0"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596566928774	Marionette	INFO	Listening on port 63043
+1596566928870	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.8/$injector/modulerr?p0=Registerform&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.8%2F%24injector%2Fmodulerr%3Fp0%3Dui.grid%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.8%252F%2524injector%252Fnomod%253Fp0%253Dui.grid%250AG%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A24%253A186%250Ab%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A251%250Ade%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A494%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A117%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A134%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Aeb%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A41%253A249%250Ac%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A463%250Ayc%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A20%253A274%250AZd%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A83%250A%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A294%253A194%250Ai%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A27451%250AfireWith%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A28215%250Aready%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30008%250AK%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30370%250A%0AG%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A391%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A134%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Aeb%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A41%3A249%0Ac%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A463%0Ayc%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A20%3A274%0AZd%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A83%0A%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A294%3A194%0Ai%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A27451%0AfireWith%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A28215%0Aready%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30008%0AK%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30370%0A
+1596566943679	Marionette	INFO	Stopped listening on port 63043
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596567046083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilehOhJwV"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596567049982	Marionette	INFO	Listening on port 63182
+1596567050204	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.8/$injector/modulerr?p0=Registerform&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.8%2F%24injector%2Fmodulerr%3Fp0%3Dui.grid%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.8%252F%2524injector%252Fnomod%253Fp0%253Dui.grid%250AG%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A24%253A186%250Ab%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A251%250Ade%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A494%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A117%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A134%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Aeb%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A41%253A249%250Ac%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A463%250Ayc%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A20%253A274%250AZd%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A83%250A%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A294%253A194%250Ai%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A27451%250AfireWith%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A28215%250Aready%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30008%250AK%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30370%250A%0AG%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A391%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A134%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Aeb%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A41%3A249%0Ac%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A463%0Ayc%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A20%3A274%0AZd%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A83%0A%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A294%3A194%0Ai%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A27451%0AfireWith%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A28215%0Aready%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30008%0AK%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30370%0A
+1596567065053	Marionette	INFO	Stopped listening on port 63182
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596567198497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilesCzgv5"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596567201823	Marionette	INFO	Listening on port 63333
+1596567202123	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.8/$injector/modulerr?p0=Registerform&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.8%2F%24injector%2Fmodulerr%3Fp0%3Dui.grid%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.8%252F%2524injector%252Fnomod%253Fp0%253Dui.grid%250AG%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A24%253A186%250Ab%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A251%250Ade%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A494%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A117%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A134%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Aeb%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A41%253A249%250Ac%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A463%250Ayc%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A20%253A274%250AZd%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A83%250A%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A294%253A194%250Ai%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A27451%250AfireWith%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A28215%250Aready%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30008%250AK%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30370%250A%0AG%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A391%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A134%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Aeb%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A41%3A249%0Ac%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A463%0Ayc%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A20%3A274%0AZd%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A83%0A%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A294%3A194%0Ai%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A27451%0AfireWith%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A28215%0Aready%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30008%0AK%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30370%0A
+1596567216138	Marionette	INFO	Stopped listening on port 63333
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596567253747	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile3CnFUk"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596567258140	Marionette	INFO	Listening on port 63425
+1596567258499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.8/$injector/modulerr?p0=Registerform&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.8%2F%24injector%2Fmodulerr%3Fp0%3Dui.grid%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.8%252F%2524injector%252Fnomod%253Fp0%253Dui.grid%250AG%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A24%253A186%250Ab%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A251%250Ade%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A494%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A117%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A134%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Aeb%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A41%253A249%250Ac%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A463%250Ayc%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A20%253A274%250AZd%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A83%250A%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A294%253A194%250Ai%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A27451%250AfireWith%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A28215%250Aready%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30008%250AK%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30370%250A%0AG%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A391%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A134%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Aeb%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A41%3A249%0Ac%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A463%0Ayc%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A20%3A274%0AZd%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A83%0A%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A294%3A194%0Ai%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A27451%0AfireWith%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A28215%0Aready%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30008%0AK%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30370%0A
+1596567275581	Marionette	INFO	Stopped listening on port 63425
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596567320003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileBzM0nP"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596567324039	Marionette	INFO	Listening on port 63537
+1596567324125	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.8/$injector/modulerr?p0=Registerform&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.8%2F%24injector%2Fmodulerr%3Fp0%3Dui.grid%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.8%252F%2524injector%252Fnomod%253Fp0%253Dui.grid%250AG%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A24%253A186%250Ab%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A251%250Ade%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A494%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A117%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A134%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Aeb%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A41%253A249%250Ac%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A463%250Ayc%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A20%253A274%250AZd%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A83%250A%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A294%253A194%250Ai%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A27451%250AfireWith%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A28215%250Aready%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30008%250AK%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30370%250A%0AG%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A391%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A134%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Aeb%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A41%3A249%0Ac%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A463%0Ayc%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A20%3A274%0AZd%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A83%0A%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A294%3A194%0Ai%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A27451%0AfireWith%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A28215%0Aready%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30008%0AK%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30370%0A
+1596567343817	Marionette	INFO	Stopped listening on port 63537
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596567366678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilevA5yLB"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596567370406	Marionette	INFO	Listening on port 63633
+1596567370805	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js, line 6: Error: [$injector:modulerr] http://errors.angularjs.org/1.4.8/$injector/modulerr?p0=Registerform&p1=%5B%24injector%3Amodulerr%5D%20http%3A%2F%2Ferrors.angularjs.org%2F1.4.8%2F%24injector%2Fmodulerr%3Fp0%3Dui.grid%26p1%3D%255B%2524injector%253Anomod%255D%2520http%253A%252F%252Ferrors.angularjs.org%252F1.4.8%252F%2524injector%252Fnomod%253Fp0%253Dui.grid%250AG%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A6%253A416%250Ade%252F%253C%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A24%253A186%250Ab%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A251%250Ade%252F%253C%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A23%253A494%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A117%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Ag%252F%253C%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A38%253A134%250An%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A7%253A333%250Ag%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A37%253A489%250Aeb%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A41%253A249%250Ac%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A463%250Ayc%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A20%253A274%250AZd%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A19%253A83%250A%2540http%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fangularjs%252F1.4.8%252Fangular.min.js%253A294%253A194%250Ai%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A27451%250AfireWith%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A28215%250Aready%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30008%250AK%2540https%253A%252F%252Fajax.googleapis.com%252Fajax%252Flibs%252Fjquery%252F1.12.0%252Fjquery.min.js%253A2%253A30370%250A%0AG%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A6%3A416%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A391%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Ag%2F%3C%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A38%3A134%0An%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A7%3A333%0Ag%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A37%3A489%0Aeb%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A41%3A249%0Ac%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A463%0Ayc%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A20%3A274%0AZd%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A19%3A83%0A%40http%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fangularjs%2F1.4.8%2Fangular.min.js%3A294%3A194%0Ai%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A27451%0AfireWith%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A28215%0Aready%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30008%0AK%40https%3A%2F%2Fajax.googleapis.com%2Fajax%2Flibs%2Fjquery%2F1.12.0%2Fjquery.min.js%3A2%3A30370%0A
+1596567389659	Marionette	INFO	Stopped listening on port 63633
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596569571472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilepnb8Xh"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596569580860	Marionette	INFO	Listening on port 64505
+1596569580959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596569596145	Marionette	INFO	Stopped listening on port 64505
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596569642088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileyC0dwN"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596569646343	Marionette	INFO	Listening on port 64586
+1596569646859	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596569662015	Marionette	INFO	Stopped listening on port 64586
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596569716843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilekSrn7I"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596569720921	Marionette	INFO	Listening on port 64679
+1596569720981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596569732470	Marionette	INFO	Stopped listening on port 64679
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596569817022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilewKm5ic"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596569819873	Marionette	INFO	Listening on port 64762
+1596569820142	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596569829495	Marionette	INFO	Stopped listening on port 64762
+[Parent 11872, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596570522491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileqiJLOx"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596570527949	Marionette	INFO	Listening on port 65039
+1596570528817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596570544350	Marionette	INFO	Stopped listening on port 65039
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596570581657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileCRQEV8"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596570588026	Marionette	INFO	Listening on port 65113
+1596570588499	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/proxy.js, line 287: NS_ERROR_NOT_INITIALIZED
+1596570736467	Marionette	INFO	Stopped listening on port 65113
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596570776328	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile1JDZtS"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596570781291	Marionette	INFO	Listening on port 65240
+1596570781546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596570796471	Marionette	INFO	Stopped listening on port 65240
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596570833289	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileTBEedu"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596570836902	Marionette	INFO	Listening on port 65321
+1596570836915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596570850903	Marionette	INFO	Stopped listening on port 65321
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596570900797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilegeFMZI"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596570904795	Marionette	INFO	Listening on port 65407
+1596570904914	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596570919237	Marionette	INFO	Stopped listening on port 65407
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596571270741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileT4dlms"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596571278629	Marionette	INFO	Listening on port 49185
+1596571279079	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596571299432	Marionette	INFO	Stopped listening on port 49185
+JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeError: this.docShell is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596571564690	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilejU2Po1"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596571570879	Marionette	INFO	Listening on port 49349
+1596571570953	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596571582715	Marionette	INFO	Stopped listening on port 49349
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596571634558	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileEUTsOo"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596571638841	Marionette	INFO	Listening on port 49442
+1596571639273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1596571648143	Marionette	INFO	Stopped listening on port 49442
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

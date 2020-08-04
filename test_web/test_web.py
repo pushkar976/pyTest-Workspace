@@ -146,3 +146,35 @@ def test_frames(browser):
     assert browser.find_element_by_css_selector('.topNav > ul:nth-child(4) > li:nth-child(2)').is_enabled() == True
     time.sleep(2)
     browser.switch_to_default_content()
+
+def test_WindowHandle(browser):
+    url = 'http://demo.automationtesting.in/Windows.html'
+    browser.get(url)
+    wait = WebDriverWait(browser,10)
+    browser.find_element_by_link_text('Open Seperate Multiple Windows').click()
+    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,'button[onclick="multiwindow()"]'))).click()
+    time.sleep(2)
+    print(browser.current_window_handle)
+    handleWindow = browser.window_handles
+
+    for handle in handleWindow:
+        browser.switch_to_window(handle)
+        print(browser.title)
+        if browser.title is "":
+            browser.close()
+
+    time.sleep(5)
+
+def test_WebTables(browser):
+    url = 'https://testautomationpractice.blogspot.com/'
+    browser.get(url)
+    rows = len(browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[2]/div[2]/footer/div/div[2]/div[2]/div[1]/div/div[1]/table/tbody/tr'))
+    cols = len(browser.find_elements_by_xpath('/html/body/div[4]/div[2]/div[2]/div[2]/footer/div/div[2]/div[2]/div[1]/div/div[1]/table/tbody/tr/th'))
+    print("No of rows : ",rows)
+    print("No of columns : ",cols)
+
+    for r in range(2,rows+1):
+        for c in range(1,cols+1):
+            tableValues = browser.find_element_by_xpath("/html/body/div[4]/div[2]/div[2]/div[2]/footer/div/div[2]/div[2]/div[1]/div/div[1]/table/tbody/tr["+str(r)+"]/td["+str(c)+"]").text
+            print(tableValues , end='       ')
+        print()
