@@ -1,16 +1,11 @@
 import pytest
-from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import TimeoutException
 import time
-
-@pytest.fixture
-def browser():
-    FFdriverloc = 'E:\\Python\\lib\\geckodriver'
-    driver = webdriver.Firefox(executable_path=FFdriverloc)
-    driver.implicitly_wait(5)
-    yield driver
-    driver.quit()
 
 def test_basic_duckduckgo_search(browser):
     URL = 'https://www.duckduckgo.com'
@@ -42,7 +37,7 @@ def test_flipkart(browser):
     pass_word = contents[1]
 
     url = "https://www.flipkart.com"
-
+    # browser.set_page_load_timeout(2)
     browser.get(url)
     flipLogin = browser.find_element_by_css_selector('input[class="_2zrpKA _1dBPDZ"]')
     flipLogin.send_keys(userID)
@@ -57,7 +52,7 @@ def test_flipkart(browser):
     flipClickLogin = browser.find_element_by_css_selector('button[class="_2AkmmA _1LctnI _7UHT_c"]')
     assert flipClickLogin.is_displayed() == True
     flipClickLogin.click()
-    time.sleep(1)
+    time.sleep(4)
 
 def test_search(browser):
     test_flipkart(browser)
@@ -80,9 +75,74 @@ def test_dropDown(browser):
     flipDropDown.select_by_index(8)
     
     allOptions = flipDropDown.options
-    print(allOptions)
 
+    priceList = []
+    i = 0
     for option in allOptions:
-        print(option.text)
+        priceList.append(option.text)
+        assert priceList[i] == option.text
+        i = i+1
 
     time.sleep(3)
+    print(priceList)
+
+
+def test_selectCheckbox(browser):
+    # try:
+        test_dropDown(browser)
+        #Explicit Wait
+        wait = WebDriverWait(browser, 20)
+
+        try:
+            checkBoxElement = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,'section._1gjf4c:nth-child(5) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > label:nth-child(1) > div:nth-child(2)')))
+            checkBoxElement.click()
+            print(checkBoxElement.is_selected())
+        except TimeoutException as ex:
+            print("Exception has been thrown. " + str(ex))
+
+        time.sleep(3)
+
+        sortPrice = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'div._1xHtJz:nth-child(4)')))
+        sortPrice.click()
+        time.sleep(4)
+
+
+def test_alertWindow(browser):
+    url = 'https://testautomationpractice.blogspot.com/'
+    browser.get(url)
+
+    wait = WebDriverWait(browser,10)
+
+    alertButton = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,'#HTML9 > div:nth-child(2) > button:nth-child(1)')))
+    alertButton.click()
+    time.sleep(5)
+    browser.switch_to_alert().accept() # Returns OK
+    # browser.switch_to_alert().dismiss() # Returns Cancle
+
+def test_frames(browser):
+    url = 'https://www.selenium.dev/selenium/docs/api/java/index.html'
+    browser.get(url)
+
+    browser.switch_to.frame('packageListFrame')
+    browser.find_element_by_link_text('org.openqa.selenium.firefox').click()
+
+    print('IS ENABLED  : ',browser.find_element_by_link_text('org.openqa.selenium.firefox').is_enabled())
+    assert browser.find_element_by_link_text('org.openqa.selenium.firefox').is_enabled() == True
+
+    time.sleep(2)
+    browser.switch_to_default_content()
+
+    browser.switch_to.frame('packageFrame')
+    browser.find_element_by_link_text('FirefoxOptions').click()
+    assert  browser.find_element_by_link_text('FirefoxOptions').is_enabled() == True
+
+    time.sleep(2)
+    browser.switch_to_default_content()
+
+    browser.switch_to.frame('classFrame')
+    print("Switched to class Frame")
+    browser.find_element_by_css_selector('.topNav > ul:nth-child(4) > li:nth-child(2)').click()
+    print('IS PAKAGE SELECTED : ',browser.find_element_by_css_selector('.topNav > ul:nth-child(4) > li:nth-child(2)').is_enabled())
+    assert browser.find_element_by_css_selector('.topNav > ul:nth-child(4) > li:nth-child(2)').is_enabled() == True
+    time.sleep(2)
+    browser.switch_to_default_content()
