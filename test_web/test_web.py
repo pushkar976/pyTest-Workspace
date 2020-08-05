@@ -5,6 +5,7 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
+from selenium.webdriver import ActionChains
 import time
 
 def test_basic_duckduckgo_search(browser):
@@ -27,7 +28,7 @@ def test_basic_duckduckgo_search(browser):
     search_input = browser.find_element_by_id('search_form_input')
     assert search_input.get_attribute('value') == PHRASE
 
-def test_flipkart(browser):
+def test_flipkart_login(browser):
 
     myDataFile = open("C:/Users/admin/Desktop/loginData.txt","r")
     contents = myDataFile.readline().split()
@@ -55,7 +56,7 @@ def test_flipkart(browser):
     time.sleep(4)
 
 def test_search(browser):
-    test_flipkart(browser)
+    test_flipkart_login(browser)
     flipSearchtext = browser.find_element_by_css_selector('input[class="LM6RPg"]')
     flipSearchtext.send_keys("realme" + Keys.RETURN)
     time.sleep(5)
@@ -178,3 +179,70 @@ def test_WebTables(browser):
             tableValues = browser.find_element_by_xpath("/html/body/div[4]/div[2]/div[2]/div[2]/footer/div/div[2]/div[2]/div[1]/div/div[1]/table/tbody/tr["+str(r)+"]/td["+str(c)+"]").text
             print(tableValues , end='       ')
         print()
+
+def test_scrollPage(browser):
+    url = 'https://testautomationpractice.blogspot.com/'
+    browser.get(url)
+
+    #1. Scroll down page by pixel
+    browser.execute_script("window.scrollBy(0,300)","")
+    time.sleep(5)
+
+    #2. Scroll down page using web element visibility
+    table = browser.find_element_by_css_selector('#HTML1 > h2:nth-child(1)')
+    browser.execute_script("arguments[0].scrollIntoView();",table)
+    time.sleep(5)
+
+    #3. Scroll till the end of webpage
+    browser.execute_script("window.scrollBy(0,document.body.scrollHeight)")
+    time.sleep(10)
+
+'''--------------MOUSE ACTIONS-------------'''
+
+def test_mouseAction(browser):
+    url = 'https://opensource-demo.orangehrmlive.com'
+    browser.get(url)
+    browser.find_element_by_css_selector('input[id="txtUsername"]').send_keys('Admin')
+    browser.find_element_by_css_selector('input[id="txtPassword"]').send_keys('admin123')
+    browser.find_element_by_css_selector('input[id="btnLogin"]').click()
+
+    admin = browser.find_element_by_css_selector('#menu_admin_viewAdminModule > b:nth-child(1)')
+    usrMgnt = browser.find_element_by_css_selector('#menu_admin_UserManagement')
+    user = browser.find_element_by_css_selector('#menu_admin_viewSystemUsers')
+    time.sleep(5)
+
+    #1. To hover the mouse on desired element and performing the click action
+    mouseAction = ActionChains(browser)
+    mouseAction.move_to_element(admin).move_to_element(usrMgnt).move_to_element(user).click().perform()
+    time.sleep(5)
+
+def test_doubleClick(browser):
+    #2. Performing the double click action
+    url = 'https://testautomationpractice.blogspot.com/'
+    browser.get(url)
+    mouseAction = ActionChains(browser)
+    webEle = browser.find_element_by_css_selector('#HTML10 > div:nth-child(2) > button:nth-child(6)')
+    mouseAction.double_click(webEle).perform()
+    time.sleep(5)
+
+def test_rightClick(browser):
+    url = 'https://testautomationpractice.blogspot.com/'
+    browser.get(url)
+    wait = WebDriverWait(browser,10)
+    alertButton = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,'#HTML9 > div:nth-child(2) > button:nth-child(1)')))
+    mouseAction = ActionChains(browser)
+
+    # Below command will perform right click action
+    mouseAction.context_click(alertButton).perform()
+    time.sleep(5)
+
+def test_dragDrop(browser):
+    url = 'http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'
+    browser.get(url)
+
+    source = browser.find_element_by_css_selector('#box6')
+    target =  browser.find_element_by_css_selector('#box106')
+
+    action = ActionChains(browser)
+    action.drag_and_drop(source,target).perform()
+    time.sleep(5)
