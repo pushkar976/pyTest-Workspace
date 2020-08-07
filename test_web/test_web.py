@@ -246,3 +246,26 @@ def test_dragDrop(browser):
     action = ActionChains(browser)
     action.drag_and_drop(source,target).perform()
     time.sleep(5)
+
+def test_uploadFile(browser):
+    url = 'https://testautomationpractice.blogspot.com/'
+
+    browser.get(url)
+    browser.switch_to_frame(0)
+    browser.find_element_by_id('RESULT_FileUpload-10').send_keys("E:\\firstFile.txt")
+
+    time.sleep(5)
+    browser.find_element_by_css_selector('.button').click()
+    time.sleep(5)
+
+def test_downloadFile(browser):
+
+    url = 'http://demo.automationtesting.in/FileDownload.html'
+    browser.get(url)
+
+    browser.find_element_by_id('textbox').send_keys('File Download test!')
+    browser.find_element_by_id('createTxt').click()
+    browser.find_element_by_id('link-to-download').click()
+
+    browser.switch_to_active_element()
+    time.sleep(10)
