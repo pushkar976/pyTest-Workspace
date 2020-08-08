@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 import time
+import logging
 
 def test_basic_duckduckgo_search(browser):
     URL = 'https://www.duckduckgo.com'
@@ -269,3 +270,67 @@ def test_downloadFile(browser):
 
     browser.switch_to_active_element()
     time.sleep(10)
+
+def test_cookies(browser):
+    url = 'https://www.flipkart.com'
+    browser.get(url)
+
+    cookies = browser.get_cookies()
+    cookiesLen = len(cookies)
+    print('----------BEFORE ADDING NEW COOKIE---------')
+    print("Num of cookies : ",cookiesLen )
+
+    for i in range(0,len(cookies)+1):
+        print(cookies[i])
+        i = i + 1
+        if i == len(cookies):
+            break
+
+    newCookie = {'name':'CustomerName','value':'Pushkar'}
+    print()
+    print('----------AFTER ADDING NEW COOKIE---------')
+    browser.add_cookie(newCookie)
+    cookies = browser.get_cookies()
+    print("Num of cookies : ", len(cookies))
+    for i in range(0,len(cookies)+1):
+        print(cookies[i])
+        i = i + 1
+        if i == len(cookies):
+            break
+
+    print('----------AFTER DELETING THE COOKIE--------')
+    # browser.delete_cookie(cookies[7])
+    browser.delete_cookie('CustomerName')
+    time.sleep(5)
+    cookies = browser.get_cookies()
+    print("Num of cookies : ", len(cookies))
+
+    for i in range(0,len(cookies)+1):
+        print(cookies[i])
+        i = i + 1
+        if i == len(cookies):
+            break
+
+    browser.delete_all_cookies()
+    cookies = browser.get_cookies()
+    print('----------AFTER DELETING ALL THE COOKIE--------')
+    print("Num of cookies : ", len(cookies))
+
+def test_screenshot(browser):
+    url = 'https://www.flipkart.com'
+    browser.get(url)
+
+    browser.save_screenshot('E:\\Pushkar\\flipkart.jpg')
+
+def test_Logging():
+    logging.basicConfig(filename='E:/Pushkar/test.log',
+                        format='%(asctime)s: %(levelname)s: %(message)s',
+                        datefmt='%m/%d/%y %I:%M:%S %p  ')
+
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+    logger.debug('This is a debug log')
+    logger.info('This is a info log')
+    logger.warning('This is a warning log')
+    logger.error('This is a error log')
+    logger.critical('This is a critical log')
