@@ -7,7 +7,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver import ActionChains
 import time
+import pytest_html
 import logging
+import allure
 
 def test_basic_duckduckgo_search(browser):
     URL = 'https://www.duckduckgo.com'
@@ -29,6 +31,7 @@ def test_basic_duckduckgo_search(browser):
     search_input = browser.find_element_by_id('search_form_input')
     assert search_input.get_attribute('value') == PHRASE
 
+@pytest.mark.flipkart_test
 def test_flipkart_login(browser):
 
     myDataFile = open("C:/Users/admin/Desktop/loginData.txt","r")
@@ -56,12 +59,16 @@ def test_flipkart_login(browser):
     flipClickLogin.click()
     time.sleep(4)
 
+@pytest.mark.flipkart_test
 def test_search(browser):
     test_flipkart_login(browser)
     flipSearchtext = browser.find_element_by_css_selector('input[class="LM6RPg"]')
     flipSearchtext.send_keys("realme" + Keys.RETURN)
+    print("Input Value in the search bar: ",flipSearchtext.get_attribute("value"))
+    assert flipSearchtext.get_attribute("value") == "realme"
     time.sleep(5)
 
+@pytest.mark.flipkart_test
 def test_dropDown(browser):
     test_search(browser)
     time.sleep(2)
@@ -88,7 +95,7 @@ def test_dropDown(browser):
     time.sleep(3)
     print(priceList)
 
-
+@pytest.mark.flipkart_test
 def test_selectCheckbox(browser):
     # try:
         test_dropDown(browser)
@@ -181,6 +188,8 @@ def test_WebTables(browser):
             print(tableValues , end='       ')
         print()
 
+
+
 def test_scrollPage(browser):
     url = 'https://testautomationpractice.blogspot.com/'
     browser.get(url)
@@ -200,6 +209,7 @@ def test_scrollPage(browser):
 
 '''--------------MOUSE ACTIONS-------------'''
 
+@pytest.mark.mouseActions
 def test_mouseAction(browser):
     url = 'https://opensource-demo.orangehrmlive.com'
     browser.get(url)
@@ -217,6 +227,7 @@ def test_mouseAction(browser):
     mouseAction.move_to_element(admin).move_to_element(usrMgnt).move_to_element(user).click().perform()
     time.sleep(5)
 
+@pytest.mark.mouseActions
 def test_doubleClick(browser):
     #2. Performing the double click action
     url = 'https://testautomationpractice.blogspot.com/'
@@ -226,6 +237,7 @@ def test_doubleClick(browser):
     mouseAction.double_click(webEle).perform()
     time.sleep(5)
 
+@pytest.mark.mouseActions
 def test_rightClick(browser):
     url = 'https://testautomationpractice.blogspot.com/'
     browser.get(url)
@@ -237,6 +249,7 @@ def test_rightClick(browser):
     mouseAction.context_click(alertButton).perform()
     time.sleep(5)
 
+@pytest.mark.mouseActions
 def test_dragDrop(browser):
     url = 'http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html'
     browser.get(url)
@@ -268,8 +281,7 @@ def test_downloadFile(browser):
     browser.find_element_by_id('createTxt').click()
     browser.find_element_by_id('link-to-download').click()
 
-    browser.switch_to_active_element()
-    time.sleep(10)
+    time.sleep(4)
 
 def test_cookies(browser):
     url = 'https://www.flipkart.com'
@@ -334,3 +346,5 @@ def test_Logging():
     logger.warning('This is a warning log')
     logger.error('This is a error log')
     logger.critical('This is a critical log')
+
+
