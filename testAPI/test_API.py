@@ -107,5 +107,18 @@ def test_countryAPI():
         countryDict = {country[i] : countryCode[i]}
         print(countryDict)
 
+def test_flipkartLoginAPI():
+    PY_BASE_URL = "https://rome.api.flipkart.com/api/4/user/authenticate"
+    null = "null"
+    true = "true"
+    payload = {"loginId":"8147070507","password":"flipkart"}
+
+    resp = requests.post(BASE_URL,payload)
+
+    print(resp.status_code)
+
+    print(json.dumps(resp.json(),indent=4))
+
+
 
 
