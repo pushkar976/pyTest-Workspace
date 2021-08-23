@@ -1,7 +1,7 @@
 import json
 import requests
 
-host = "test-api.adcuratio.net"
+host = ""
 login_api = "https://" + host + "/login/"
 creative_upload_api = "https://" + host + "/pilot/upload_creative_files/"
 get_company_list_api = "https://" + host + "/advertiser/get_company_list/"

@@ -21,7 +21,7 @@ Above steps will trigger the commands based on the input provided.
 #####Local:
     $ python3 -m locust -f locustfile_adcuratio.py --master
 #####Remote:
-    $ sudo ssh -t -i /home/pushkar/Desktop/server25 -p 21025 adcadmin@blackbox.adcuratio.org python3 -m locust -f locust_test.py --master
+    $ sudo ssh -t -i SERVER python3 -m locust -f locust_test.py --master
 
     NOTE: To run the locust in worker mode just replace "--master" with "--worker"
 
