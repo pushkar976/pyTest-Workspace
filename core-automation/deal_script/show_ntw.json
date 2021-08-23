@@ -1,0 +1,116 @@
+{
+   "A&E": [
+      {
+         "sellingName": "Mountain Men",
+         "showStartTime": "01:00:00",
+         "showEndTime": "02:00:00",
+         "dayPart": "YYYYYNN",
+         "weeksCount": 12,
+         "weeklySpotCount": 5,
+         "ShowStartMonday": "19/07/2021",
+         "UnitCost": "16000",
+         "impression": "6215737"
+      },
+      {
+         "sellingName": "Duck Dynasty",
+         "showStartTime": "13:00:00",
+         "showEndTime": "14:00:00",
+         "dayPart": "NNNNNYY",
+         "weeksCount": 8,
+         "weeklySpotCount": 1,
+         "ShowStartMonday": "19/07/2021",
+         "UnitCost": "23000",
+         "impression": "6215737"
+      },
+      {
+         "sellingName": "Paranormal State",
+         "showStartTime": "08:30:00",
+         "showEndTime": "09:00:00",
+         "dayPart": "YYYNNNN",
+         "weeksCount": 4,
+         "weeklySpotCount": 1,
+         "ShowStartMonday": "19/07/2021",
+         "UnitCost": "20000",
+         "impression": "8150037"
+      },
+      {
+         "sellingName": "Flipping Vegas",
+         "showStartTime": "21:00:00",
+         "showEndTime": "22:00:00",
+         "dayPart": "YYYYYYY",
+         "weeksCount": 24,
+         "weeklySpotCount": 3,
+         "ShowStartMonday": "19/07/2021",
+         "UnitCost": "12000",
+         "impression": "9137988"
+      },
+      {
+         "sellingName": "Ghost Hunters",
+         "showStartTime": "02:30:00",
+         "showEndTime": "03:00:00",
+         "dayPart": "NNNNNNY",
+         "weeksCount": 18,
+         "weeklySpotCount": 1,
+         "ShowStartMonday": "19/07/2021",
+         "UnitCost": "125678",
+         "impression": "5017037"
+      }
+   ],
+   "FYI": [
+      {
+         "sellingName": "Mountain Men",
+         "showStartTime": "01:00:00",
+         "showEndTime": "02:00:00",
+         "dayPart": "YYYYYNN",
+         "weeksCount": 12,
+         "weeklySpotCount": 5,
+         "ShowStartMonday": "06/09/2021",
+         "UnitCost": "16000",
+         "impression": "6215737"
+      },
+      {
+         "sellingName": "Duck Dynasty",
+         "showStartTime": "13:00:00",
+         "showEndTime": "14:00:00",
+         "dayPart": "NNNNNYY",
+         "weeksCount": 8,
+         "weeklySpotCount": 1,
+         "ShowStartMonday": "06/09/2021",
+         "UnitCost": "23000",
+         "impression": "6215737"
+      },
+      {
+         "sellingName": "Paranormal State",
+         "showStartTime": "08:30:00",
+         "showEndTime": "09:00:00",
+         "dayPart": "YYYNNNN",
+         "weeksCount": 4,
+         "weeklySpotCount": 1,
+         "ShowStartMonday": "06/09/2021",
+         "UnitCost": "20000",
+         "impression": "8150037"
+      },
+      {
+         "sellingName": "Flipping Vegas",
+         "showStartTime": "21:00:00",
+         "showEndTime": "22:00:00",
+         "dayPart": "YYYYYYY",
+         "weeksCount": 24,
+         "weeklySpotCount": 3,
+         "ShowStartMonday": "06/09/2021",
+         "UnitCost": "12000",
+         "impression": "9137988"
+      },
+      {
+         "sellingName": "Ghost Hunters",
+         "showStartTime": "02:30:00",
+         "showEndTime": "03:00:00",
+         "dayPart": "NNNNNNY",
+         "weeksCount": 18,
+         "weeklySpotCount": 1,
+         "ShowStartMonday": "06/09/2021",
+         "UnitCost": "125678",
+         "impression": "5017037"
+      }
+   ]
+}
